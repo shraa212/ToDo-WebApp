@@ -4,9 +4,9 @@ const { buildSchema } = require('graphql');
 const cors = require('cors');
 
 let todos = [
-  { id: '1', task: 'Learn GraphQL', completed: false, priority: 'high' },
-  { id: '2', task: 'Build a Todo App', completed: false, priority: 'medium' },
-  { id: '3', task: 'Deploy to production', completed: true, priority: 'low' },
+  { id: '1', task: 'Coding', completed: false, priority: 'high' },
+  { id: '2', task: 'Assignments', completed: false, priority: 'medium' },
+  { id: '3', task: 'Trekking', completed: true, priority: 'low' },
 ];
 
 const schema = buildSchema(`
